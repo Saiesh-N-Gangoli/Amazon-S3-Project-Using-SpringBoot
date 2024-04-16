@@ -1,0 +1,36 @@
+.image-container img{
+    width: 60px;
+    height: 35px;
+    position: relative;
+    left: 10px;
+    margin-bottom: 19px;
+    top: 9px;
+}
+
+.containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #232f3e;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.select-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 10px;
+    top: 7px;
+}
+
+.select-container ul li{
+    list-style: none;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.select-container ul li:hover{
+    font-weight: 700;
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.image-proper-display{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-proper-display img{
+    width: 293px;
+    height: 200px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #fff;
+}
+
+.image-proper-display p{
+    color: #fff;
+}
+
+.inside-image-proper-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.inside-image-proper-display p{
+    margin-top: 10px;
+}
+
+.Emoji{
+    color: #fff;
+    width: 80px;
+    height: 80px;
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 1005;
+}
+
+.image-proper-display img:hover{
+    cursor: pointer;
+}
